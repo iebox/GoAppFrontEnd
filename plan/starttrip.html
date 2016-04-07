@@ -13,14 +13,14 @@
   <title>开始旅行</title>
 
   <!-- Bootstrap core CSS -->
-  <link href="/css/bootstrap.min.css" rel="stylesheet">
+  <link href="../css/bootstrap.css" rel="stylesheet">
 
   <!-- Custom styles for this template -->
-  <link href="cover.css" rel="stylesheet">
+  <link href="../cover.css" rel="stylesheet">
 
   <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
   <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
-  <script src="/js/ie-emulation-modes-warning.js"></script>
+  <script src="../js/ie-emulation-modes-warning.js"></script>
 
   <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
@@ -30,7 +30,7 @@
 
 </head>
 
-<body background="../GoAppFrontEnd/img/stbk.jpg">
+<body>
 
   <div class="site-wrapper">
     <div class="site-wrapper-inner">
@@ -42,28 +42,39 @@
             <h3 class="masthead-brand">中文|English</h3>
             <nav>
               <ul class="nav masthead-nav">
-                <li class="active"><a href="home.html">主页</a></li>
+                <li class="active"><a href="../home.html">主页</a></li>
                 <li><a href="#">开始旅行</a></li>
                 <li><a href="#">联系我们</a></li>
+                <li><a href="#">中文|English</a></li>
               </ul>
             </nav>
           </div>
         </div>
 
-        <div class="country" style ="background:url(../GoAppFrontEnd/img/usa.jpg);background-size: cover;widows: 100%;height: 100%;background-repeat: no-repeat;">
+        <div class="country">
           <h1 class="cover-heading">美国</h1>
           <p class="lead">山姆大叔。联邦建制。东西海岸山地，中央大平原。<br /><br /><br /><br />
+          </p>
+          <p class="lead">
+            <a href="usa.html" class="btn btn-lg btn-default">了解更多</a>
+          </p>
+        </div>
+        
+        <div class="country">
+          <h1 class="cover-heading">加拿大</h1>
+          <p class="lead">
+            枫叶国。英语、法语都是官方语言。<br />
+            <br /><br /><br /><br />
           </p>
           <p class="lead">
             <a href="#" class="btn btn-lg btn-default">了解更多</a>
           </p>
         </div>
-        <div class="country"></div>
-        <div class="country" style ="background:url(../GoAppFrontEnd/img/canada.jpg);background-size: cover;widows: 100%;height: 100%;background-repeat: no-repeat;">
+        <div class="country">s
           <h1 class="cover-heading">加拿大</h1>
           <p class="lead">
-          枫叶国。英语、法语都是官方语言。<br />
-          <br /><br /><br /><br />
+            枫叶国。英语、法语都是官方语言。<br />
+            <br /><br /><br /><br />
           </p>
           <p class="lead">
             <a href="#" class="btn btn-lg btn-default">了解更多</a>
@@ -85,9 +96,9 @@
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
-    <script src="/jquery/jquery.min.js"></script>
-    <script src="/js/bootstrap.min.js"></script>
+    <script src="../jquery/jquery.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-    <script src="/js/ie10-viewport-bug-workaround.js"></script>
-</body>
+    <script src="../js/ie10-viewport-bug-workaround.js"></script>
+  </body>
 </html>
